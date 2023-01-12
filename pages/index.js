@@ -1,6 +1,7 @@
 import Head from "next/head";
 import HeroSection from "../components/day-1/HeroSection";
 import Navbar from "../components/day-1/Navbar";
+import Portofolio from "../components/day-2/Portfolio";
 
 export default function Home() {
   return (
@@ -11,8 +12,9 @@ export default function Home() {
         <link rel="icon" href="/pro.ico" />
       </Head>
       <main>
-        <Navbar />
-        <HeroSection />
+        {/* <Navbar /> //day-1 is completed
+        <HeroSection />  //day-1 is completed*/} 
+        <Portofolio/>
       </main>
     </div>
   );
