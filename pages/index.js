@@ -3,6 +3,7 @@ import HeroSection from "../components/day-1/HeroSection";
 import Navbar from "../components/day-1/Navbar";
 import Portofolio from "../components/day-2/Portfolio";
 import Card from "../components/day-3/Card";
+import Indigator from "../components/day-4/Indigator";
 
 export default function Home() {
   return (
@@ -16,7 +17,8 @@ export default function Home() {
         {/* <Navbar /> //day-1 is completed
         <HeroSection />  //day-1 is completed*/} 
         {/* <Portofolio/> //day-2 is completed */}
-        <Card/>
+        {/* <Card/> Day-3 Is complete */}
+        <Indigator/>
       </main>
     </div>
   );
