@@ -1,5 +1,6 @@
 import Head from "next/head";
 import PageNotFound from "../components/day-7/PageNotFound";
+import Sidebar from "../components/day-8/Sidebar";
 export default function Home() {
   return (
     <div>
@@ -9,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/pro.ico" />
       </Head>
       <main className="h-screen w-screen flex justify-center items-center bg-black">
-        <PageNotFound/>
+       <Sidebar/>
       </main>
     </div>
   );
