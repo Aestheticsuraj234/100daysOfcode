@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Toast from "../components/day-9/Toast";
+import Footer from "../components/day-10/Footer";
 export default function Home() {
   return (
     <div>
@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/pro.ico" />
       </Head>
       <main className="h-screen w-screen flex justify-center items-center bg-indigo-200">
-       <Toast/>
+      <Footer/>
       </main>
     </div>
   );
